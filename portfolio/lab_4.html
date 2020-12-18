@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!-- Website template by Jacob Root of the University of Washington -->
+<html>
+	<body>
+	<head>
+		<title>Tribal Comparison -- jakeroot</title>
+		<link href="../assets/css/old_styles.css" rel="stylesheet" type="text/css">
+		<script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
+		<link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
+		<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.2.0/mapbox-gl-geocoder.min.js'></script>
+		<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.2.0/mapbox-gl-geocoder.css' type='text/css' />
+
+
+	</head>
+
+		<div class="main">
+
+			<h1>A Tale of Two Tribes: the Puyallup and the Makah</h1>
+
+			<p>This nation is made up of numerous tribal nations, across the country, with particular focus in the Midwest and Western US. As a member of the Choctaw Nation, services offered in the vacinity of tribal nations is of great interest to me. Not all tribal nations are able to offer equal services to their population, so availability of services is an essential part of maintaining a healthy tribe, even if those services are not offered by the tribe themselves. The following two maps is a very simple comparison, and shows some basic services in the vicinity of two tribal nations: the Makah, located in the northwest corner of Washington State, and the Puyallup, located in Tacoma.</p>
+
+			<p>The lower maps show the following: grocery stores, police stations, fire stations, hospitals, life resource centers, and employment centers. I hope to add other data to the comparison in the future.</p>
+
+			<p>When considering this map, it's important to note differences in population: the Makah reservation has 1,632 residents, compared to the Puyallup's 2,500 and more urban location. To better understand the density, both maps begin at the same zoom level.</p>
+
+		</div>
+
+
+	<div class="tribemapholderleft">
+
+	<h2><center>Puyallup Reservation</center></h2>
+
+		<div id='mapboxmappuyallup'></div>
+			<script>
+			mapboxgl.accessToken = 'pk.eyJ1IjoiamFrZXJvb3QxIiwiYSI6ImNraGNxOXp0cTBibmgyeG1kZ3I5ZmQyNXEifQ.ozY3QJOOnrA6prmZ-Ch11g';
+			var map = new mapboxgl.Map({
+			container: 'mapboxmappuyallup',
+			style: 'mapbox://styles/jakeroot1/ckigpxzwm5tm919pbn9k4v0oc', // stylesheet location
+			center: [-122.36, 47.25], // starting position [lng, lat]
+			zoom: 10.3 // starting zoom
+			});
+
+			//Custom pop-up
+			var popup = new mapboxgl.Popup()
+					.setHTML('Grocery Store: <b>Safeway</b>');
+
+			var el = document.createElement('div');
+			el.className = 'grocerymarker';
+
+			var marker = new mapboxgl.Marker(el)
+				.setLngLat([-122.44071765861587, 47.2067896019006])
+				.setPopup(popup)
+				.addTo(map);
+			//
+
+			//Custom pop-up
+			var popup = new mapboxgl.Popup()
+					.setHTML('Grocery Store: <b>East Asia Supermarket</b>');
+
+			var el = document.createElement('div');
+			el.className = 'grocerymarker';
+
+			var marker = new mapboxgl.Marker(el)
+				.setLngLat([-122.43939006530702, 47.22220202127053])
+				.setPopup(popup)
+				.addTo(map);
+			//
+
+			//Custom pop-up
+			var popup = new mapboxgl.Popup()
+					.setHTML('Police Station: <b>Puyallup Tribal Police</b>');
+
+			var el = document.createElement('div');
+			el.className = 'policemarker';
+
+			var marker = new mapboxgl.Marker(el)
+				.setLngLat([-122.41214344513355, 47.23766055268328])
+				.setPopup(popup)
+				.addTo(map);
+			//
+
+			//Custom pop-up
+			var popup = new mapboxgl.Popup()
+					.setHTML('Police Station: <b>Fife Police</b>');
+
+			var el = document.createElement('div');
+			el.className = 'policemarker';
+
+			var marker = new mapboxgl.Marker(el)
+				.setLngLat([-122.37896758485168, 47.244324291831894])
+				.setPopup(popup)
+				.addTo(map);
+			//
+
+			//Custom pop-up
+			var popup = new mapboxgl.Popup()
+					.setHTML('Police Station: <b>Pierce County Sheriff</b>');
+
+			var el = document.createElement('div');
+			el.className = 'policemarker';
+
+			var marker = new mapboxgl.Marker(el)
+				.setLngLat([-122.44524934118648, 47.25328554207828])
+				.setPopup(popup)
+				.addTo(map);
+			//
+
+			//Custom pop-up
+			var popup = new mapboxgl.Popup()
+					.setHTML('Life Care Center: <b>Park Place Mental Health</b>');
+
+			var el = document.createElement('div');
+			el.className = 'lifecentermarker';
+
+			var marker = new mapboxgl.Marker(el)
+				.setLngLat([-122.44887433392887, 47.25705741319769])
+				.setPopup(popup)
+				.addTo(map);
+			//
+
+			//Custom pop-up
+			var popup = new mapboxgl.Popup()
+					.setHTML('Hospital: <b>MultiCare Tacoma General</b>');
+
+			var el = document.createElement('div');
+			el.className = 'hospitalmarker';
+
+			var marker = new mapboxgl.Marker(el)
+				.setLngLat([-122.45245621459027, 47.259557698939425])
+				.setPopup(popup)
+				.addTo(map);
+			//
+
+			//Custom pop-up
+			var popup = new mapboxgl.Popup()
+					.setHTML('Hospital: <b>CHI Franciscan St Joseph Medical Center</b>');
+
+			var el = document.createElement('div');
+			el.className = 'hospitalmarker';
+
+			var marker = new mapboxgl.Marker(el)
+				.setLngLat([-122.44786356498193, 47.24535160918992])
+				.setPopup(popup)
+				.addTo(map);
+			//
+
+
+			</script>
+
+		</div>
+
+		<div class="tribemapholderright">
+
+		<h2><center>Makah Reservation</center></h2>
+
+		<div id='mapboxmapmakah'></div>
+			<script>
+			mapboxgl.accessToken = 'pk.eyJ1IjoiamFrZXJvb3QxIiwiYSI6ImNraGNxOXp0cTBibmgyeG1kZ3I5ZmQyNXEifQ.ozY3QJOOnrA6prmZ-Ch11g';
+			var map = new mapboxgl.Map({
+			container: 'mapboxmapmakah',
+			style: 'mapbox://styles/jakeroot1/ckigpxzwm5tm919pbn9k4v0oc', // stylesheet location
+			center: [-124.64, 48.28], // starting position [lng, lat]
+			zoom: 10.3 // starting zoom
+			});
+
+			//Custom pop-up
+			var popup = new mapboxgl.Popup()
+					.setHTML('Grocery Store: <b>Makah Mini Mart</b>');
+
+			var el = document.createElement('div');
+			el.className = 'grocerymarker';
+
+			var marker = new mapboxgl.Marker(el)
+				.setLngLat([-124.62486, 48.36798])
+				.setPopup(popup)
+				.addTo(map);
+			//
+
+			//Custom pop-up
+			var popup = new mapboxgl.Popup()
+					.setHTML('Grocery Store: <b>Washburn General Store</b>');
+
+			var el = document.createElement('div');
+			el.className = 'grocerymarker';
+
+			var marker = new mapboxgl.Marker(el)
+				.setLngLat([-124.60864053405977, 48.36568348096701])
+				.setPopup(popup)
+				.addTo(map);
+			//
+
+			//Custom pop-up
+			var popup = new mapboxgl.Popup()
+					.setHTML('Grocery Store: <b>Rays Grocery</b>');
+
+			var el = document.createElement('div');
+			el.className = 'grocerymarker';
+
+			var marker = new mapboxgl.Marker(el)
+				.setLngLat([-124.42924079739366, 48.30503918129273])
+				.setPopup(popup)
+				.addTo(map);
+			//
+
+			//Custom pop-up
+			var popup = new mapboxgl.Popup()
+					.setHTML('Police Station: <b>Makah Tribal Police</b>');
+
+			var el = document.createElement('div');
+			el.className = 'policemarker';
+
+			var marker = new mapboxgl.Marker(el)
+				.setLngLat([-124.59539393238204, 48.37073668252969])
+				.setPopup(popup)
+				.addTo(map);
+			//
+
+			//Custom pop-up
+			var popup = new mapboxgl.Popup()
+					.setHTML('Hospital and Care Center: <b>Sophie Trettevick Indian Health Center</b>');
+
+			var el = document.createElement('div');
+			el.className = 'lifecentermarker';
+
+			var marker = new mapboxgl.Marker(el)
+				.setLngLat([-124.62716083902144, 48.36803490371252])
+				.setPopup(popup)
+				.addTo(map);
+			//
+
+			</script>
+			</div>
+
+			<div class="pagecredits">
+
+				<p>"life" by Alice Design from the Noun Project. "Hospital" by b farias from the Noun Project.</p>
+
+			</div>
+
+		</script>
+		</div>
+	</body>
+</html>

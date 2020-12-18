@@ -1,0 +1,374 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-style: normal;
+  text-align: left;
+}
+a:hover {
+  font-weight: bold;
+}
+
+a:visited {
+  color: #A1A1A1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+    background-color: #FFF;
+    margin: auto;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.mapholder {
+    background-color: #FFF;
+    margin: auto;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.tribemapholderleft {
+    background-color: #FFF;
+    margin: auto;
+    overflow: hidden;
+    width: 50%;
+    float: left;
+}
+
+.tribemapholderright {
+    background-color: #FFF;
+    margin: auto;
+    overflow: hidden;
+    width: 50%;
+    float: right;
+}
+
+.cemeterymapholder {
+    background-color: #FFF;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+    float: right;
+}
+
+#map {
+    background-color: #FFF;
+    margin: auto;
+    overflow: hidden;
+    padding: 30px;
+    height: 500px;
+}
+
+#mapboxmap1 {
+    background-color: #FFF;
+    margin: auto;
+    overflow: hidden;
+    padding: 30px;
+    height: 500px;
+}
+
+#mapboxmap2 {
+    background-color: #FFF;
+    margin: auto;
+    overflow: hidden;
+    padding: 30px;
+    height: 500px;
+}
+
+#mapboxmappuyallup {
+    background-color: #FFF;
+    margin: auto;
+    overflow: hidden;
+    height: 700px;
+}
+
+#mapboxmapmakah {
+    background-color: #FFF;
+    margin: auto;
+    overflow: hidden;
+    height: 700px;
+}
+
+#mapboxmapcemetery {
+    background-color: #FFF;
+    margin: auto;
+    overflow: hidden;
+    height: 700px;
+}
+
+#mapboxmapcemetery2 {
+    background-color: #FFF;
+    margin: auto;
+    overflow: hidden;
+    height: 700px;
+}
+
+#mapboxpopmap {
+  background-color: #FFF;
+  margin: auto;
+  overflow: hidden;
+  height: 500px;
+  width: auto;
+  padding: 30px;
+  padding-top: 30px;
+}
+
+#mapholder2 {
+  background-color: #FFF;
+  margin: auto;
+  overflow: hidden;
+  height: 500px;
+  width: auto;
+  padding: 30px;
+  padding-top: 30px;
+}
+
+.pagecredits {
+    background-color: #FFF;
+    margin: auto;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.contactphoto {
+    background-color: #FFF;
+    margin: auto;
+    overflow: hidden;
+    padding: 30px;
+    width: 42.5%;
+    height: 450px;
+    float: right;
+}
+
+.contactdescription {
+    background-color: #FFF;
+    margin: auto;
+    overflow: hidden;
+    padding: 30px;
+    width: 42.5%;
+    height: 450px;
+    float: left;
+}
+
+.photobanner {
+    background-color: #FFF;
+    margin: auto;
+    overflow: hidden;
+    padding: 30px;
+}
+
+body, html {
+  height: auto;
+  background-color: #F8F8FF;
+  font-family: "Roboto", sans-serif;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+iframe{
+  width: 100%;
+  height: 500px;
+  border: none;
+  float: left;
+}
+
+p2{
+  font-weight: bold;
+}
+
+.tablink {
+  background-color: #DC3D2A;
+  color: white;
+  float: left;
+  border: none;
+  outline: inherit;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 12px;
+  width: 33.3333%;
+  font-family: "Roboto", sans-serif;
+}
+
+.tablinkactive {
+  background-color: #B3000C;
+  color: white;
+  float: left;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 33.3333%;
+  font-family: "Roboto", sans-serif;
+}
+
+.tablink:hover {
+  background-color: #00B32C;
+}
+
+#legend2 {
+  margin: auto;
+  overflow: hidden;
+	line-height: 0px;
+	background: white;
+	opacity: 0.8;
+	padding:5px 25px 5px 0px;
+}
+
+.map-overlay {
+  bottom: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.8);
+  margin-right: 20px;
+  font-family: Arial, sans-serif;
+  overflow: auto;
+  border-radius: 3px;
+}
+
+#features {
+  top: 0;
+  height: 40px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#legend {
+  padding: 15px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  line-height: 18px;
+  height: auto;
+  margin-bottom: 10px;
+  width: auto;
+}
+
+.legend-key {
+  display: inline-block;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.schoolmarker {
+  background-image: url('icons/school_icon.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.golfmarker {
+  background-image: url('icons/golf_icon.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ticketmarker {
+  background-image: url('icons/ticket_icon.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.hotelmarker {
+  background-image: url('icons/hotel_icon.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.conventionmarker {
+  background-image: url('icons/convention_icon.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.grocerymarker {
+  background-image: url('icons/grocery.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.policemarker {
+  background-image: url('icons/police.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.firestationmarker {
+  background-image: url('icons/fire_station.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.lifecentermarker {
+  background-image: url('icons/life_symbol.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.hospitalmarker {
+  background-image: url('icons/hospital.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.margaretstillwellmarker {
+  background-image: url('icons/maggie_stillwell.png');
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.cemeteryplotmarker {
+  background-image: url('icons/cemetery_icon.png');
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.waltmarionjorgmarker {
+  background-image: url('icons/walt_marion_jorgensen.png');
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}

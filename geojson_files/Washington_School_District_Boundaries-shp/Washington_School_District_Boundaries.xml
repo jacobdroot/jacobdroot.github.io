@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xalan="http://xml.apache.org/xalan" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.isotc211.org/2005/gmd">
+    <fileIdentifier>
+        <gco:CharacterString>1602872163080r2008852642587824</gco:CharacterString>
+    </fileIdentifier>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact>
+        <CI_ResponsibleParty>
+            <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp>
+        <gco:Date>2020-10-16</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Washington School District Boundaries</gco:CharacterString>
+                    </title>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2020-10-16</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="ISOTC211/19115">creation</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2020-10-16</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2020-10-16</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>**NOTE: This feature service is replacing &amp;quot;School Districts - Washington State&amp;quot; which will be deprecated on or about 10/30/2020**This data was compiled by the Washington Office of Superintendent of Public Instruction (OSPI) to provide boundary and attribute information for the 295 Public School Districts in the State of Washington. The polygons are our best representation of current district boundaries based on legal descriptions, county, and other available GIS data. Users should contact the local school district(s) to confirm the interpretation of district boundaries in questions.Attribute definitions with alias in [ ] and source in ():OrganizationId [Organization Id] - Unique organization code for database purposes (EDS)ESDCode [ESD Code] - Educational Service District unique code (EDS)ESDNum [ESD Number] - Educational Service District numberESDName [ESD Name] - Educational Service District name (EDS)LEACode [LEA Code] - Local Educational Authority/District unique code (EDS)LEAName [LEA Name] - Local Educational Authority/District name (EDS)ShortName [Short Name] - Abbreviated District name (Calculated)PhysicalAddress [School Physical Address]- Physical Address of school (EDS)MailingAddress [School Mailing Address] - Mailing Address of school (EDS)AdministratorName [Administrator Name] - School Administrator's name (EDS)AdministratorEmail [Administrator Email] - School Administrator's email (EDS)Phone [Phone] - District phone (EDS)Website [Website] - District website URL (Edited)County [County] - Primary District County (EDS)Counties [All Counties] - All Counties with areas in District (GIS)CongressionalDistricts [Congressional Districts] - All Congressional Districts with areas in District (EDS)LegislativeDistricts [Legislative Districts] - All Legislative Districts with areas in District (EDS)Type [Type] - Type of School District: Public School District, Charter District, or Tribal Compact (EDS)TransportationRegion [Transportation Region] - Transportation Coordinator Regions</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>This feature service represents the boundaries of all 295 Public School Districts in Washington State.</gco:CharacterString>
+            </purpose>
+            <pointOfContact>
+                <CI_ResponsibleParty>
+                    <individualName>
+                        <gco:CharacterString>Bruce O. Schneider</gco:CharacterString>
+                    </individualName>
+                    <organisationName>
+                        <gco:CharacterString>Washington Office of Superintendent of Public Instruction (OSPI)</gco:CharacterString>
+                    </organisationName>
+                    <positionName>
+                        <gco:CharacterString>GIS Developer</gco:CharacterString>
+                    </positionName>
+                    <contactInfo>
+                        <CI_Contact>
+                            <address>
+                                <CI_Address>
+                                    <electronicMailAddress>
+                                        <gco:CharacterString>bruce.schneider@k12.wa.us</gco:CharacterString>
+                                    </electronicMailAddress>
+                                </CI_Address>
+                            </address>
+                        </CI_Contact>
+                    </contactInfo>
+                    <role>
+                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author" codeSpace="ISOTC211/19115">author</CI_RoleCode>
+                    </role>
+                </CI_ResponsibleParty>
+            </pointOfContact>
+            <resourceMaintenance>
+                <MD_MaintenanceInformation>
+                    <maintenanceAndUpdateFrequency>
+                        <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115">asNeeded</MD_MaintenanceFrequencyCode>
+                    </maintenanceAndUpdateFrequency>
+                    <dateOfNextUpdate>
+                        <gco:Date>2021-09-01</gco:Date>
+                    </dateOfNextUpdate>
+                    <userDefinedMaintenanceFrequency>
+                        <gts:TM_PeriodDuration>Annually or as needed</gts:TM_PeriodDuration>
+                    </userDefinedMaintenanceFrequency>
+                </MD_MaintenanceInformation>
+            </resourceMaintenance>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>School Districts</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>OSPI</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Office of Superintendent of Public Instruction</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Washington State</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Education</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>School Districts</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>OSPI</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Office of Superintendent of Public Instruction</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Washington State</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Education</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>School Districts</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>OSPI</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Office of Superintendent of Public Instruction</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Washington State</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Education</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>School Districts</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>OSPI</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Office of Superintendent of Public Instruction</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Washington State</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Education</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>School Districts</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>OSPI</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Office of Superintendent of Public Instruction</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Washington State</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Education</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <language gco:nilReason="missing"/>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <topicCategory>
+                <MD_TopicCategoryCode>society</MD_TopicCategoryCode>
+            </topicCategory>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <transferOptions>
+                <MD_DigitalTransferOptions/>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+</MD_Metadata>
