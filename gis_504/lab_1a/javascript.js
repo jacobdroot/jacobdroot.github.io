@@ -16,7 +16,7 @@ var dark = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?
 
 var map = L.map('map', {layers:[light]}).fitWorld();
 
-window.alert("This website requires the use of your location. The website does not store this information, and it used only to locate you.");
+window.alert("This website requires the use of your location. The website does not store this information, and it used only to locate you for the purpose of showing your location on this map.");
 
 var mapdisplay = L.layerGroup([light, dark]);
 
