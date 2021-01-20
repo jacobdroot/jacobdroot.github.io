@@ -100,7 +100,7 @@ map.addLayer({
  source: 'nearest-hospital',
  paint: {
    'circle-radius': 12,
-   'circle-color': '#486DE0'
+   'circle-color': 'red'
  }
 }, 'hospitals');
 
