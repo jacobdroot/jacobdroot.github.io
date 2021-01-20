@@ -16,7 +16,7 @@ var dark = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?
 
 var map = L.map('map', {layers:[light]}).fitWorld();
 
-window.alert("This website requires the use of your location. The website does not store this information, and it used only to locate you for the purpose of showing your location on this map.");
+window.alert("This website uses your device to find your location; this information is not stored. Click the icon on the left to find your location.");
 
 var mapdisplay = L.layerGroup([light, dark]);
 
@@ -64,4 +64,6 @@ function onLocationError(e) {
 
 map.on('locationerror', onLocationError);
 
-map.locate({setView: true, maxZoom: 16});
+L.easyButton( '<i class="fas fa-map-marked"></i>', function(){
+  map.locate({setView: true, maxZoom: 16});
+}).addTo(map);
