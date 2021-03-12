@@ -1,0 +1,8 @@
+I need to collect data on LEFT SIDE YIELD ON GREEN SIGNALS because it has been my life's work for the last two years.
+
+The only data that needs to be collected is POINTS data
+
+Non-spatial data: number of signal faces (3, 4 or 5); backplate status (YES, NO)
+
+
+My data collection application will be designed to pinpoint traffic signals that are left-of-center of the intersection that include a circular green indication. These are rare signals in the state of Washington, and I have been trying to locate all of them for years. I only need to collect points data for this application. Non-spatial data would be how many signal faces are included (3, 4, or 5), whether there is a backplate (Yes, No), and how it is attached (Pole or Mast Arm).
