@@ -139,5 +139,3 @@ map.addEventListener("draw:deletestop", function(e) {
         drawnItems.openPopup();
     }
 });
-
-window.alert("This website is used to construct .geoJSON files. Create shapes and points, give them titles and descriptions, and then submit!");
