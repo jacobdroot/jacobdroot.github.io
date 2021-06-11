@@ -28,11 +28,11 @@ Website template by Jacob Root of the University of Washington
 				maxZoom: 19,
 				attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 				}).addTo(map);
-				$.getJSON("geojson_files/Tacoma_Boundary.geojson",function(data){
+				$.getJSON("../geojson_files/Tacoma_Boundary.geojson",function(data){
 					L.geoJson(data,
 				).addTo(map);
 				});
-				$.getJSON("geojson_files/jakeroot_favorite_parks.geojson",function(data){
+				$.getJSON("../geojson_files/jakeroot_favorite_parks.geojson",function(data){
 					L.geoJson(data, {
 						pointToLayer: function(feature, latlng){
             var marker = L.marker(latlng);
@@ -60,7 +60,7 @@ Website template by Jacob Root of the University of Washington
 			</ul>
 		</div>
 		<p>This is an extremely basic leaflet map. It has a polygon (the city of Tacoma boundary), and a few points (my favorite city parks). It was constructed using Leaflet version 1.7.1. The background map tiles are from Open Street Map.</p>
-		
+
 		<hr>
 
 		<center><a href="../index.html" class="button">Return Home</a></center>
